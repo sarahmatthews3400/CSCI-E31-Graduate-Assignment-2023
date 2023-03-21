@@ -1,0 +1,16 @@
+
+h2 Upload a Blog Post
+.d-flex.align-items-center
+    if flashMsg.length > 0
+        .alert.alert-danger <strong></strong>#{flashMsg}
+    form(method='POST' action="/")
+        div.form-group
+            label(for='title') Title :
+            input#title.form-control(type='text', placeholder='title' name='title')
+        div.form-group
+            label(for='date') Date:
+            input#date.form-control(type='text', placeholder='YYYY-MM-DD' name='date')
+        div.form-group
+            label(for='entry') Entry:
+            input#entry.form-control(type='text',  placeholder='write something here' name='entry')
+        button.btn.btn-primary(type='submit') Submit Blog Entry

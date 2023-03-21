@@ -1,0 +1,10 @@
+extends layout 
+block content 
+    h1 My Adventure Blog
+    p Welcome to my online adventure blog. I create and submit new entries here detailing my adventures.
+    h2 Adventures So Far 
+    each post in blogposts
+        p Title:  #{post.title}
+        p Date: #{post.date}
+        p Entry: #{post.entry}
+    include newpost

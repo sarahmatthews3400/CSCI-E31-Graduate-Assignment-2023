@@ -1,0 +1,31 @@
+{
+  "name": "csci-e31-graduate-assignment-2023",
+  "version": "1.0.0",
+  "description": "Coding puzzle to help reinforce the error handling we've learned in class",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bin/www",
+    "start-dev": "node --watch --inspect bin/www"
+  },
+  "keywords": [
+    "homework",
+    "harvard",
+    "extension",
+    "nodejs"
+  ],
+  "author": "Sarah Matthews",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "connect": "^3.7.0",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "http": "^0.0.1-security",
+    "pug": "^3.0.2",
+    "sessions": "^0.0.2-7",
+    "url": "^0.11.0"
+  }
+}
