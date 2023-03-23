@@ -21,7 +21,7 @@ router.get('/', (req, res, next)=>{
     });
 });
 
-/*  PRACTICE TODO - SOLUTION HERE
+/*  PRACTICE TODO
 
     Modify this post function so that instead of
     always posting the form entry, it performs two checks

@@ -36,9 +36,6 @@ router.get('/', (req, res, next)=>{
     an error, it should be passed on via next() so the
     error handler can receive and handle it.
 
-    If you choose, you may create separate errors for missing title, 
-    date, and blog entry fields, but it's not required.
-
 */
 router.post('/', (req, res, next)=>{
     try {
